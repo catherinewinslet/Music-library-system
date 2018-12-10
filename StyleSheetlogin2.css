@@ -1,0 +1,71 @@
+﻿body {
+    background-attachment: fixed;
+    background-image: url("images/login.jpg");
+}
+
+.dip{
+    background:none;
+    border:none;
+    padding-left:350px; 
+
+}
+
+.signup {
+    background-color: hsla(0,100%,0%,0.5);
+    border: none;
+    height: auto;
+    margin: 100px auto 0;
+    width: 700px;
+    padding: 50px;
+}
+
+.text {
+    font-size: 18px;
+    font-family: 'Courier New', monospace;
+    color: white;
+    font-weight: 500;
+    margin: 2px;
+}
+
+.TextBox {
+    background-color: wheat;
+    line-height: 25px;
+    width: 500px;
+    border-radius: 6px;
+    transition: box-shadow 0.3s;
+    border: 1px solid black;
+    padding-left: 37px;
+}
+
+    .TextBox:focus {
+        
+        outline: 0;
+    }
+
+.text1 {
+    font-size: 18px;
+    font-family: 'Courier New', monospace;
+    color: black;
+    font-weight: 700;
+    align-self:center;
+}
+
+.button {
+    background-color: #EE5A24;
+    border: none;
+    cursor:pointer;
+    border-radius: 2px;
+    color: white;
+    padding: 10px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-family: 'Courier New', monospace;
+    font-size: 16px;
+    margin:10px;
+}
+
+    .button:focus {
+        outline: 0;
+        background-color: #dd3913;
+    }

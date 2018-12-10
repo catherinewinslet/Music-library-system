@@ -1,0 +1,80 @@
+﻿html{
+    height:100%;
+}
+
+body {
+    background-attachment: fixed;
+    background-image:url("images/bgg.jpg");
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.Logo {
+    font-size: 100px;
+    font-family: 'Trebuchet MS',monospace;
+    font-style: normal;
+    font-weight: 900;
+    display: inline-block;
+    color: #ff4930;
+    margin-left:45%;
+}
+
+.button {
+    background-color: #EE3824;
+    cursor: pointer;
+    border: none;
+    border-radius: 2px;
+    color: white;
+    padding: 10px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    font-variant: small-caps;
+    transition-duration: 0.4s;
+}
+
+    .button:hover {
+        background-color: #dd3913;
+    }
+#del{
+        font-size: 18px;
+    color: white;
+    font-weight: 500;
+}
+    /* account page*/
+ #Buttondelete {
+     display:inline;
+     font-size:18px;
+ }
+
+ 
+
+.dip {
+    background-color: hsla(0,100%,0%,0.2);
+    border: none;
+    height: auto;
+    margin: 10px auto 0;
+    width: auto;
+    margin-left: 350px; /* Same as the width of the sidenav */
+    font-size: 28px; /* Increased text to enable scrolling */
+    padding:20px 90px;
+}
+
+/* ALL THEM LABELS */
+.message {
+    font-size: 18px;
+    color: white;
+    font-weight: 500;
+    margin: 0;
+}
+
+@media screen and (max-height: 450px) {
+    .sidenav {
+        padding-top: 15px;
+    }
+
+    #Button1, #Button2, #Button3 {
+        font-size: 18px;
+    }
+}
+

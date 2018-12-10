@@ -1,0 +1,65 @@
+﻿body {
+   
+    background-attachment: fixed;
+    background-image: url("images/login.jpg");
+}
+
+.login {
+    background-color: hsla(0,100%,0%,0.5);
+    border: none;
+    height: 400px;
+    margin: 100px 100px auto 0;
+    float: right;
+    width: 300px;
+    padding: 50px;
+}
+
+.text {
+    font-size: 20px;
+    font-family: 'Courier New', monospace;
+    color:white;
+    font-weight:500;
+    margin:0;
+}
+
+.TextBox {
+    background-color: wheat;
+    line-height: 25px;
+    width: 280px;
+    border-radius: 6px;
+    transition: box-shadow 0.3s;
+    padding-left: 37px;
+}
+
+    .TextBox:focus { 
+        outline: 0;
+    }
+
+.text1 {
+    font-size: 20px;
+    font-family: 'Courier New', monospace;
+    color: white;
+    font-weight: 500;
+    margin: 0;
+    float: right;
+}
+
+.button {
+    background-color: #EE5A24;
+    cursor:pointer;
+    border: none;
+    border-radius: 2px;
+    color: white;
+    padding: 10px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-family: 'Courier New', monospace;
+    font-size: 16px;
+    float:right;
+}
+
+    .button:focus {
+        outline: 0;
+        background-color: #dd3913;
+    }

@@ -1,0 +1,107 @@
+﻿
+.sidenav {
+    height: 100%;
+    width: 200px;
+    position: fixed;
+    z-index: 1;
+    top: 0;
+    left: 0;
+    background-color: #111;
+    overflow-x: hidden;
+    padding-top: 50px;
+    padding-left: 20px;
+}
+
+/* PROFILE PICTURE */
+#profile {
+    border-radius: 50%;
+    height:50px;
+    width:50px;
+    float: left;
+    margin: 3px;
+    display: inline;
+}
+    #profile:focus{
+        outline:none;
+    }
+
+#usr {
+    font-size: 18px;
+    color: white;
+    font-weight: 500;
+    padding-left: 30px;
+    display: inline;
+}
+
+/* SEARCH BUTTON */
+#searchbutton {
+    border: none;
+    height: 30px;
+    width: 30px;
+    padding: 0;
+    border-radius: 50%;
+    float: right;
+    display: inline;
+    margin-right: 30px;
+}
+    #searchbutton:focus {
+       outline: 0;
+    }
+
+/* SEARCH BAR */
+.TextBox {
+    background-color: hsla(0,100%,0%,0.5);
+    line-height: 25px;
+    width: 180px;
+    border-radius: 6px;
+    border-style: none;
+    border: 1px solid;
+    border-color: #cc2411;
+    transition: box-shadow 0.3s;
+    margin: 2px 3px auto auto;
+    padding-left: 37px;
+    color: white;
+}
+    .TextBox:focus {
+        outline: 0;
+    }
+
+
+/*  navigation bar buttons(home music playlist logout)*/
+.but {
+    background-color: hsla(0,100%,0%,0);
+    cursor: pointer;
+    border: none;
+    color: #dd3913;
+    padding: 6px 8px 6px 16px;
+    display: inline;
+    text-align: center;
+    text-decoration: none;
+    font-size: 30px;
+    font-variant: small-caps;
+    display: block;
+    width:80%;
+    font-weight:400;
+}
+
+    .but:hover {
+        background-color: hsla(0,50%,50%,0.4);
+        color:white;
+    }
+        .but:focus {
+            outline: 0;
+        }
+
+    /* side bar*/
+.sidenav {
+    height: 100%;
+    width: 300px;
+    position: fixed;
+    z-index: 1;
+    top: 0;
+    left: 0;
+    background-color: #222;
+    overflow-x: hidden;
+    padding-top: 50px;
+    padding-left:20px;
+}
